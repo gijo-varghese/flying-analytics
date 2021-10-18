@@ -5,7 +5,7 @@ Tags: google analytics, minimal analytics, self-host, site kit, monsterinsights,
 Requires at least: 4.5
 Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,9 @@ Load Optimized & Self-hosted Google Analytics
 1. Flying Analytics Settings
 
 == Changelog ==
+
+= 2.0.2 =
+- Fix: Settings from previous versions not recognized
 
 = 2.0.1 =
 - Fix: PHP error in last version
