@@ -1,0 +1,12 @@
+.rwmb-file-input-inner {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	grid-gap: 4px;
+}
+.rwmb-file_input {
+	margin: 0 4px 0 0;
+}
+.rwmb-file-input-inner .button {
+	margin: 0;
+}

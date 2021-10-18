@@ -1,0 +1,10 @@
+composer.json
+composer.lock
+.git
+.gitignore
+.github
+.wordpress-org
+package.json
+package-lock.json
+.prettierrc
+.prettierignore
