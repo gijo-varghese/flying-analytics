@@ -24,7 +24,7 @@ class JavaScript
       'flying_analytics'
     );
 
-    if ($disable_tracking && current_user_can('contributor')) {
+    if ($disable_tracking && current_user_can('edit_posts')) {
       return;
     }
 
