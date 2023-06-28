@@ -46,11 +46,8 @@ class Settings
           'type' => 'radio',
           'size' => 20,
           'options' => [
-            'gtagv4' => 'Gtag v4 (91 KB)',
-            'gtag.js' => 'Gtag (66 KB)',
-            'analytics.js' => 'Analytics (44 KB)',
-            'minimal-analytics' => 'Minimal Analytics (1.4 KB)',
-            'minimal-analytics-inlined' => 'Minimal Analytics Inlined (1.4 KB)',
+            'gtagv4' => 'Google Analytics v4 (91 KB)',
+            'minimal-analytics' => 'Minimal Google Analytics v4 (7 KB)',
           ],
           'std' => get_option('flying_analytics_method') ?: 'gtag.js',
           'inline' => false,
@@ -68,7 +65,7 @@ class Settings
             Need a more faster website? Get 
             <a href="https://flying-press.com/?ref=flying_analytics" target="_blank" style="color:#4b60dc">FlyingPress</a>.
             Also check out our  
-            <a href="https://profiles.wordpress.org/flyingpress/#content-plugins" target="_blank">free plugins</a>.
+            <a href="https://profiles.wordpress.org/gijo/#content-plugins" target="_blank">free plugins</a>.
             </h4>',
         ],
       ],
